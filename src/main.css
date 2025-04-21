@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: "Baloo 2", sans-serif;
+  }
+} 
+
+@theme {
+  --color-mint-500: oklch(0.72 0.11 178);
+  --color-base-title: #272221;
+  --color-base-subtitle: #403937;
+  --color-base-text: #574F4D;
+  --color-base-label: #8D8686;
+  --color-base-button: #E6E5E5;
+  --color-base-card: #F3F2F2;
+  --color-base-background: #FAFAFA;
+  --color-brand-purple-light: #EBE5F9;
+  --color-brand-purple: #8047F8;
+  --color-brand-purple-dark: #4B2995;
+  --color-brand-yellow-light: #F1E9C9;
+  --color-brand-yellow: #DBAC2C;
+  --color-brand-yellow-dark: #C47F17;
+}
+
+@font-face {
+  font-family: "Baloo 2";
+  src: url("./assets/fonts/Baloo2-Regular.ttf") format("truetype");
+}
+
+
+
+
+
+
